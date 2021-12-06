@@ -4,7 +4,7 @@
     "registry": "https://npm.pkg.github.com/aurorasolar"
   },
   "repository": "https://github.com/aurorasolar/design-system.git",
-  "version": "14.4.3",
+  "version": "14.4.4",
   "description": "Turn a ReactElement into the corresponding JSX string.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
