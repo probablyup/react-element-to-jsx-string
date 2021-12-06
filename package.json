@@ -1,6 +1,10 @@
 {
-  "name": "react-element-to-jsx-string",
-  "version": "14.3.4",
+  "name": "@aurorasolar/react-element-to-jsx-string",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/aurorasolar"
+  },
+  "repository": "https://github.com/aurorasolar/design-system.git",
+  "version": "14.4.0",
   "description": "Turn a ReactElement into the corresponding JSX string.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -31,7 +35,6 @@
     "url": "https://github.com/algolia"
   },
   "license": "MIT",
-  "repository": "algolia/react-element-to-jsx-string",
   "devDependencies": {
     "@babel/cli": "7.16.0",
     "@babel/core": "7.16.0",
