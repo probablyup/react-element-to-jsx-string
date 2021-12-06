@@ -4,7 +4,7 @@
     "registry": "https://npm.pkg.github.com/aurorasolar"
   },
   "repository": "https://github.com/aurorasolar/design-system.git",
-  "version": "14.4.0",
+  "version": "14.4.1",
   "description": "Turn a ReactElement into the corresponding JSX string.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -28,7 +28,10 @@
     "smoke": "node tests/smoke/run"
   },
   "lint-staged": {
-    "*.js": ["prettier --write \"**/*.{js,json}\"", "git add"]
+    "*.js": [
+      "prettier --write \"**/*.{js,json}\"",
+      "git add"
+    ]
   },
   "author": {
     "name": "Algolia, Inc.",
@@ -87,6 +90,8 @@
     "react-is": "17.0.2"
   },
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>tests/setupTests.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>tests/setupTests.js"
+    ]
   }
 }
